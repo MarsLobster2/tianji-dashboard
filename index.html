@@ -47,8 +47,9 @@ h1 { font-size:1.5em; margin-bottom:4px; }
 <div id="dashboard" style="display:none">
   <div class="grid">
     <div class="card">
-      <h2>📊 融合信号</h2>
+      <h2>📊 BTC方向判断</h2>
       <div id="signal-direction" class="big neutral">—</div>
+      <div style="color:var(--dim);font-size:0.75em;margin-top:6px">4个数据源综合判断：看多(LONG) / 看空(SHORT) / 观望(NEUTRAL)</div>
       <div id="signal-detail" style="color:var(--dim);font-size:0.85em;margin-top:4px">—</div>
     </div>
     <div class="card">
@@ -59,16 +60,16 @@ h1 { font-size:1.5em; margin-bottom:4px; }
   </div>
 
   <div class="card" style="margin-bottom:12px">
-    <h2>🔬 4层信号</h2>
+    <h2>🔬 4个数据源</h2>
     <div id="layers"></div>
   </div>
 
   <div class="grid">
     <div class="card">
-      <h2>🎯 准确率</h2>
+      <h2>🎯 历史命中率</h2>
       <div id="accuracy" class="big">—</div>
       <div class="accuracy-bar"><div id="accuracy-bar" class="accuracy-fill" style="width:0%;background:var(--yellow)"></div></div>
-      <div id="accuracy-detail" style="color:var(--dim);font-size:0.8em;margin-top:4px">等待数据积累...</div>
+      <div id="accuracy-detail" style="color:var(--dim);font-size:0.8em;margin-top:4px">系统刚上线，积累中...</div>
     </div>
     <div class="card">
       <h2>🌍 地缘风险</h2>
@@ -78,7 +79,7 @@ h1 { font-size:1.5em; margin-bottom:4px; }
   </div>
 
   <div class="card" style="margin-bottom:12px">
-    <h2>📈 信号历史 (最近10条)</h2>
+    <h2>📈 历史判断 (最近10次)</h2>
     <div id="history"></div>
   </div>
 </div>
@@ -99,10 +100,10 @@ function tagHTML(d) {
   return `<span class="tag ${cls}">${d}</span>`;
 }
 const layerNames = {
-  A_price_state: 'A 价格状态',
-  B_chain_flow: 'B 链上流动',
-  C_geo_risk: 'C 地缘风险',
-  D_early_warning: 'D 预警系统'
+  A_price_state: 'A 技术面',
+  B_chain_flow: 'B 资金流向',
+  C_geo_risk: 'C 地缘局势',
+  D_early_warning: 'D 市场预警'
 };
 
 async function load() {
