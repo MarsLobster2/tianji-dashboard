@@ -1,0 +1,293 @@
+{
+  "updated": "2026-04-03 19:25 SGT",
+  "signal": {
+    "direction": "SHORT",
+    "confidence": 16.38,
+    "score": -16.38,
+    "agreement": 100.0,
+    "price": 66863.0
+  },
+  "layers": {
+    "A_price_state": {
+      "direction": "NEUTRAL",
+      "confidence": 25
+    },
+    "B_chain_flow": {
+      "direction": "SHORT",
+      "confidence": 15
+    },
+    "C_geo_risk": {
+      "direction": "SHORT",
+      "confidence": 15.4
+    },
+    "D_early_warning": {
+      "direction": "SHORT",
+      "confidence": 40
+    }
+  },
+  "geo": {
+    "composite": 42.4,
+    "military": 100,
+    "recommendation": "⚠️ 风险偏高，谨慎操作"
+  },
+  "accuracy": {
+    "total": 0,
+    "correct": 0
+  },
+  "history": [
+    {
+      "ts": "2026-04-03T17:43:26.830467",
+      "direction": "LONG",
+      "confidence": 17.9,
+      "score": 17.9,
+      "price": 66917.0,
+      "layers": {
+        "L1_technical": "LONG",
+        "L2_onchain": "LONG",
+        "L3_sentiment": "LONG",
+        "L4_geopolitics": "NEUTRAL",
+        "L5_earlywarning": "LONG",
+        "L6_ml": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T17:58:52.288502",
+      "direction": "LONG",
+      "confidence": 13.9,
+      "score": 13.9,
+      "price": 66860.0,
+      "layers": {
+        "L1_technical": "LONG",
+        "L2_onchain": "NEUTRAL",
+        "L3_sentiment": "LONG",
+        "L4_geopolitics": "NEUTRAL",
+        "L5_earlywarning": "LONG",
+        "L6_ml": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T17:59:13.915286",
+      "direction": "LONG",
+      "confidence": 11.5,
+      "score": 11.5,
+      "price": 66860.0,
+      "layers": {
+        "L1_technical": "LONG",
+        "L2_onchain": "NEUTRAL",
+        "L3_sentiment": "LONG",
+        "L4_geopolitics": "SHORT",
+        "L5_earlywarning": "LONG",
+        "L6_ml": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:01:40.307526",
+      "direction": "LONG",
+      "confidence": 10.9,
+      "score": 10.9,
+      "price": 66822.0,
+      "layers": {
+        "L1_technical": "LONG",
+        "L2_onchain": "SHORT",
+        "L3_sentiment": "LONG",
+        "L4_geopolitics": "NEUTRAL",
+        "L5_earlywarning": "LONG",
+        "L6_ml": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:10:39.321116",
+      "direction": "LONG",
+      "confidence": 17.9,
+      "score": 17.9,
+      "price": 66787.0,
+      "layers": {
+        "L1_technical": "LONG",
+        "L2_onchain": "LONG",
+        "L3_sentiment": "LONG",
+        "L4_geopolitics": "NEUTRAL",
+        "L5_earlywarning": "LONG",
+        "L6_ml": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:11:16.796212",
+      "direction": "NEUTRAL",
+      "confidence": 0.5,
+      "score": -0.5,
+      "price": 66778.0,
+      "layers": {
+        "L1_technical": "LONG",
+        "L2_onchain": "NEUTRAL",
+        "L3_sentiment": "LONG",
+        "L4_geopolitics": "SHORT",
+        "L5_earlywarning": "SHORT",
+        "L6_ml": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:12:20.854474",
+      "direction": "NEUTRAL",
+      "confidence": 1.6,
+      "score": -1.6,
+      "price": 66814.0,
+      "layers": {
+        "L1_technical": "LONG",
+        "L2_onchain": "NEUTRAL",
+        "L3_sentiment": "LONG",
+        "L4_geopolitics": "SHORT",
+        "L5_earlywarning": "SHORT",
+        "L6_ml": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:13:53.970399",
+      "direction": "NEUTRAL",
+      "confidence": 2.4,
+      "score": 2.4,
+      "price": 66825.0,
+      "layers": {
+        "L1_technical": "LONG",
+        "L2_onchain": "LONG",
+        "L3_sentiment": "LONG",
+        "L4_geopolitics": "SHORT",
+        "L5_earlywarning": "SHORT",
+        "L6_ml": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:30:42.711101",
+      "direction": "NEUTRAL",
+      "confidence": 5.9,
+      "score": 5.9,
+      "price": 66709.0,
+      "layers": {
+        "L1_technical": "LONG",
+        "L2_onchain": "LONG",
+        "L3_sentiment": "LONG",
+        "L4_geopolitics": "NEUTRAL",
+        "L5_earlywarning": "SHORT",
+        "L6_ml": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:31:22.827591",
+      "direction": "LONG",
+      "confidence": 14.4,
+      "score": 14.4,
+      "price": 66677.0,
+      "layers": {
+        "L1_technical": "LONG",
+        "L2_onchain": "LONG",
+        "L3_sentiment": "LONG",
+        "L4_geopolitics": "SHORT",
+        "L5_earlywarning": "LONG",
+        "L6_ml": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:42:57.077595",
+      "direction": "NEUTRAL",
+      "confidence": 0.0,
+      "score": 0.0,
+      "price": 0,
+      "layers": {
+        "A_price_state": "NEUTRAL",
+        "B_chain_flow": "NEUTRAL",
+        "C_geo_risk": "NEUTRAL",
+        "D_early_warning": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:43:09.403667",
+      "direction": "NEUTRAL",
+      "confidence": 4.6,
+      "score": -4.6,
+      "price": 0,
+      "layers": {
+        "A_price_state": "NEUTRAL",
+        "B_chain_flow": "NEUTRAL",
+        "C_geo_risk": "SHORT",
+        "D_early_warning": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:43:38.511164",
+      "direction": "NEUTRAL",
+      "confidence": 4.6,
+      "score": -4.6,
+      "price": 66798.0,
+      "layers": {
+        "A_price_state": "NEUTRAL",
+        "B_chain_flow": "NEUTRAL",
+        "C_geo_risk": "SHORT",
+        "D_early_warning": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:46:41.379441",
+      "direction": "NEUTRAL",
+      "confidence": 4.6,
+      "score": -4.6,
+      "price": 66814.0,
+      "layers": {
+        "A_price_state": "NEUTRAL",
+        "B_chain_flow": "NEUTRAL",
+        "C_geo_risk": "SHORT",
+        "D_early_warning": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:48:48.503939",
+      "direction": "NEUTRAL",
+      "confidence": 4.4,
+      "score": 4.4,
+      "price": 66873.0,
+      "layers": {
+        "A_price_state": "NEUTRAL",
+        "B_chain_flow": "LONG",
+        "C_geo_risk": "SHORT",
+        "D_early_warning": "LONG"
+      }
+    },
+    {
+      "ts": "2026-04-03T18:50:09.287545",
+      "direction": "NEUTRAL",
+      "confidence": 4.6,
+      "score": -4.6,
+      "price": 66841.0,
+      "layers": {
+        "A_price_state": "NEUTRAL",
+        "B_chain_flow": "NEUTRAL",
+        "C_geo_risk": "SHORT",
+        "D_early_warning": "NEUTRAL"
+      }
+    },
+    {
+      "ts": "2026-04-03T19:00:54.169305",
+      "direction": "SHORT",
+      "confidence": 12.4,
+      "score": -12.4,
+      "price": 66887.0,
+      "layers": {
+        "A_price_state": "NEUTRAL",
+        "B_chain_flow": "SHORT",
+        "C_geo_risk": "SHORT",
+        "D_early_warning": "SHORT"
+      }
+    },
+    {
+      "ts": "2026-04-03T19:01:55.774751",
+      "direction": "SHORT",
+      "confidence": 16.4,
+      "score": -16.4,
+      "price": 66863.0,
+      "layers": {
+        "A_price_state": "NEUTRAL",
+        "B_chain_flow": "SHORT",
+        "C_geo_risk": "SHORT",
+        "D_early_warning": "SHORT"
+      }
+    }
+  ]
+}
