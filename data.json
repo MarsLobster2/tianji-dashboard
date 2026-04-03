@@ -1,11 +1,11 @@
 {
-  "updated": "2026-04-03 19:25 SGT",
+  "updated": "2026-04-03 19:51 SGT",
   "signal": {
-    "direction": "SHORT",
-    "confidence": 16.38,
-    "score": -16.38,
-    "agreement": 100.0,
-    "price": 66863.0
+    "direction": "NEUTRAL",
+    "confidence": 3.93,
+    "score": 3.93,
+    "agreement": 66.7,
+    "price": 66975.0
   },
   "layers": {
     "A_price_state": {
@@ -13,22 +13,22 @@
       "confidence": 25
     },
     "B_chain_flow": {
-      "direction": "SHORT",
+      "direction": "LONG",
       "confidence": 15
     },
     "C_geo_risk": {
       "direction": "SHORT",
-      "confidence": 15.4
+      "confidence": 12.7
     },
     "D_early_warning": {
-      "direction": "SHORT",
-      "confidence": 40
+      "direction": "LONG",
+      "confidence": 20.0
     }
   },
   "geo": {
-    "composite": 42.4,
+    "composite": 37.9,
     "military": 100,
-    "recommendation": "⚠️ 风险偏高，谨慎操作"
+    "recommendation": "🟡 风险中等，保持观察"
   },
   "accuracy": {
     "total": 0,
@@ -287,6 +287,32 @@
         "B_chain_flow": "SHORT",
         "C_geo_risk": "SHORT",
         "D_early_warning": "SHORT"
+      }
+    },
+    {
+      "ts": "2026-04-03T19:31:10.505162",
+      "direction": "SHORT",
+      "confidence": 12.6,
+      "score": -12.6,
+      "price": 66923.0,
+      "layers": {
+        "A_price_state": "NEUTRAL",
+        "B_chain_flow": "NEUTRAL",
+        "C_geo_risk": "SHORT",
+        "D_early_warning": "SHORT"
+      }
+    },
+    {
+      "ts": "2026-04-03T19:51:02.607531",
+      "direction": "NEUTRAL",
+      "confidence": 3.9,
+      "score": 3.9,
+      "price": 66975.0,
+      "layers": {
+        "A_price_state": "NEUTRAL",
+        "B_chain_flow": "LONG",
+        "C_geo_risk": "SHORT",
+        "D_early_warning": "LONG"
       }
     }
   ]
